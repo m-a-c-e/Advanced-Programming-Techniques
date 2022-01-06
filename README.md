@@ -1,1 +1,1 @@
-# Advanced-C##-and-Parallel-Computing
+# Advanced Programming Techniques
