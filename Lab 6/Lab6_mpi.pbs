@@ -1,0 +1,15 @@
+#PBS -N job1
+#PBS -q coc-ice 
+
+#PBS -l nodes=8:ppn=2
+#PBS -l walltime=00:00:10
+
+#PBS -o Temperatures.csv
+
+#PBS -m abe
+#PBS -M mpatel608@gatech.edu
+
+cd ~/ECE6122/A6/
+
+module load gcc mvapich2
+mpirun -np 16 ./Lab6_mpi.out -N 256 -l 10000
