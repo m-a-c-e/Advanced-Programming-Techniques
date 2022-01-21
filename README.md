@@ -1,6 +1,7 @@
 # Advanced Programming Techniques
 
-This repository contain code implementation for the following programming techniques. The problem statement for the code can be found in the pdf file.
+This repository contain code implementation for the following programming techniques. The problem statement for the code can be found in the pdf file.  
+
 
 Lab 1 - Object Oriented Programming
 Lab 2 - Multi-threading using std::thread and OpenMP in C++
